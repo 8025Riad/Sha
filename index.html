@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../src/styles/globals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Sha Md Riad</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">
+                    <span class="wave">👋</span>
+                    <h1>Hello, I'm</h1>
+                </div>
+                <h2 class="name">Sha Md Riad</h2>
+                <h3>Full Stack Developer</h3>
+                <p>Crafting exceptional digital experiences through innovative web development. 
+                   I combine cutting-edge technology with creative design to build applications 
+                   that solve real-world problems and make a meaningful impact.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./images/riad.PNG" alt="Sha Md Riad - Profile Picture" class="profile-pic">
+                <div class="profile-bg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">A passionate Full Stack Developer who loves to create innovative web solutions</p>
+                <div class="about-description">
+                    <p>I specialize in building robust and scalable web applications using modern technologies. With expertise in both frontend and backend development, I create seamless user experiences while ensuring solid architectural foundations.</p>
+                    <p>My approach combines technical excellence with creative problem-solving, always staying current with the latest industry trends and best practices.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <span class="highlight-number">3+</span>
+                        <span class="highlight-text">Years of Experience</span>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-number">50+</span>
+                        <span class="highlight-text">Projects Completed</span>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-number">100%</span>
+                        <span class="highlight-text">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills & Expertise</h2>
+        <p class="section-desc">Technologies and tools I use to bring ideas to life</p>
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <div class="skill-list">
+                    <span>React</span>
+                    <span>Vue.js</span>
+                    <span>TypeScript</span>
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Tailwind</span>
+                    <span>SASS</span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <div class="skill-list">
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                    <span>Python</span>
+                    <span>Django</span>
+                    <span>PostgreSQL</span>
+                    <span>MongoDB</span>
+                    <span>Redis</span>
+                    <span>GraphQL</span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Tools & Technologies</h3>
+                <div class="skill-list">
+                    <span>Git</span>
+                    <span>Docker</span>
+                    <span>AWS</span>
+                    <span>Vercel</span>
+                    <span>Webpack</span>
+                    <span>Vite</span>
+                    <span>Jest</span>
+                    <span>Cypress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <p class="section-desc">Some of my recent works</p>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/project1.jpg" alt="Project 1">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce solution with real-time inventory management, secure payments, and an intuitive admin dashboard.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-project live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="btn-project github"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/project2.jpg" alt="Project 2">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>GraphQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management application with real-time updates, team workspaces, and automated workflow features.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-project live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="btn-project github"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/project3.jpg" alt="Project 3">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Analytics Dashboard</h3>
+                    <p>A comprehensive analytics platform with interactive charts, customizable widgets, and automated reporting system.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-project live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="btn-project github"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://wa.me/+8801234567890" target="_blank" class="social-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://github.com/yourusername" target="_blank" class="social-icon github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-icon linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-icon email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-icon twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sha Md Riad. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
